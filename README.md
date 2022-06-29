@@ -21,4 +21,24 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+
+> This is a Ruby on Rail 7 application that allows users to see my portafolio.
+
+### Features
+
+- Real time chat engine for comments
+- Blog
+- Portafolio
+- Drag and drop interface
+
+### Code Example
+
+```ruby
+def mmy_great_method
+	puts "here it is"
+end
+```
+
+```javascript
+alert('Hi there');
+```
