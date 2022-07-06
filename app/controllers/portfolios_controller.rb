@@ -9,10 +9,12 @@ class PortfoliosController < ApplicationController
 
 	def new 
 		@portfolio_item = Portfolio.new
+    3.times { @portfolio_item.tecgnologies.build }
 	end
 
 	def create
-    @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle,:body))
+    @portfolio_item = Portfolio.new(params.require(:portfolio).permit(:title, :subtitle,:body, 
+      tecgnologies_attributes: [:name]))
 
     respond_to do |format|
       if @portfolio_item.save
