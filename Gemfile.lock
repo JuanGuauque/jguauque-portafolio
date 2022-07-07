@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/JuanGuauque/guauque_view_tool
+  revision: 75644b121b22bd7f5c3e23854f87b64ab80cac1b
+  specs:
+    guauque_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -235,6 +241,7 @@ DEPENDENCIES
   debug
   devise (~> 4.8, >= 4.8.1)
   friendly_id (~> 5.4.0)
+  guauque_view_tool!
   importmap-rails
   jbuilder
   jquery-rails

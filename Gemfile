@@ -64,6 +64,8 @@ group :development do
   gem 'bootstrap', '~> 5.1.3'
   gem 'jquery-rails'
 
+  gem 'guauque_view_tool', git: 'https://github.com/JuanGuauque/guauque_view_tool'
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
