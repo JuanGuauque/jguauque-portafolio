@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="h-100">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title><%= @page_title %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
@@ -10,9 +14,12 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+
+
   </head>
 
-  <body>
+  <body class="d-flex h-100 text-center text-white bg-dark">
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
 
