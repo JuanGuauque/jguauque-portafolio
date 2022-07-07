@@ -65,6 +65,7 @@ group :development do
   gem 'jquery-rails'
 
   gem 'guauque_view_tool', '~> 0.1.0'
+  gem 'petergate', '~> 3.0'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
