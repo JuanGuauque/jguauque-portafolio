@@ -15,22 +15,21 @@
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
 
-
-
   </head>
 
   <body class="d-flex h-100 text-center text-white bg-dark">
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-    <%= render "shared/nav", location: 'top' %>
+      <%= render "shared/application_nav" %>
 
-    <%= login_helper %>
+      <%= login_helper %>
 
-    <%= yield %>
+      <%= yield %>
 
-    <%= copyright_generator %>
+      <%= copyright_generator %>
 
-    <%= source_helper("application") %>
+      <%= source_helper("application") %>
+
+    </div>
   </body>
 </html>
