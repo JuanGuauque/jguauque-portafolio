@@ -16,17 +16,8 @@
 
   <body>
     <main class="container">
-    <!-- Start of nav -->
-      <div class="nav-scroller blog-header py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-          <a class="nav-link" href="#">World</a>
-          <a class="nav-link" href="#">U.S.</a>
-          <a class="nav-link" href="#">Technology</a>
-          <a class="nav-link" href="#">Design</a>
-          <a class="nav-link" href="#">Culture</a>
-        </nav>
-      </div>
-    <!-- End of nav -->
+
+      <%= render 'shared/blog_nav' %>
 
     <!-- Start of blog header -->
       <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
@@ -41,8 +32,6 @@
     <!-- Start of container and row element -->
 
       <div class="row g-5">
-
-        <%= login_helper %>
 
         <%= yield %>
 
