@@ -1,5 +1,11 @@
-<p style="color: green"><%= notice %></p>
+<div class="col-md-8">
 
-<%= render @blog %>
+  <h2><%= @blog.title %></h2>
 
+  <%= link_to 'Edit', edit_blog_path(@blog) if logged_in?(:site_admin) %>
 
+  <p>
+  	<%= @blog.body %>
+  </p>
+  
+</div>

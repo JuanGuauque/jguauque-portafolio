@@ -1,10 +1,11 @@
-<h1>Editing blog</h1>
+<div class="col-md-8">
 
-<%= render "form", blog: @blog %>
 
-<br>
+  <h1>Editing blog</h1>
 
-<div>
+  <%= render "form", blog: @blog %>
+
+
   <%= link_to "Show this blog", @blog %> |
   <%= link_to "Back to blogs", blogs_path %>
 </div>
