@@ -2,8 +2,12 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 
+import "custom/hmtl.sortable"
+
 //= require jquery
-//= require jquery_ujs
-//= require jquery3
-//= require popper
 //= require bootstrap-sprockets
+//= require jquery_ujs
+//= require jquery-ui
+//= require custom/html.sortable
+//= require turbolinks
+//= require_tree .
