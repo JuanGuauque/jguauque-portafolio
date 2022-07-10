@@ -7,3 +7,8 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js", preload: true
 pin_all_from "app/javascript/controllers", under: "controllers"
 
 pin_all_from "app/javascript/custom", under: "custom"
+
+pin "jquery", to: "jquery.js", preload: true
+pin "jquery_ujs", to: "jquery_ujs.js", preload: true
+pin "popper", to: "popper.js", preload: true
+pin "jquery-ui", to: "jquery-ui.js", preload: true
