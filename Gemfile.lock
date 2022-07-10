@@ -121,6 +121,9 @@ GEM
       warden (~> 1.2.3)
     digest (3.1.0)
     dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -294,7 +297,7 @@ DEPENDENCIES
   carrierwave-aws (~> 1.5)
   debug
   devise (~> 4.8, >= 4.8.1)
-  dotenv (~> 2.7, >= 2.7.6)
+  dotenv-rails (~> 2.7, >= 2.7.6)
   font-awesome-rails (~> 4.7, >= 4.7.0.8)
   friendly_id (~> 5.4.0)
   guauque_view_tool (~> 0.1.0)

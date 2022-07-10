@@ -72,7 +72,7 @@ group :development do
   gem 'carrierwave', '~> 2.2', '>= 2.2.2'
   gem 'mini_magick', '~> 4.11'
   gem 'carrierwave-aws', '~> 1.5'
-  gem 'dotenv', '~> 2.7', '>= 2.7.6'
+  gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
