@@ -10,7 +10,20 @@
       <%= form.label :subtitle, style: "display: block" %>
       <%= form.text_area :subtitle, class: 'form-control' %>
     </div>
+
+    <div class="mb-3">
+      <label class="btn btn-primary">
+        Upload a Main Image file <%= form.file_field :main_image, style: 'display:none;' %>
+      </label>
+    </div>
+
+    <div class="mb-3">
+      <label class="btn btn-primary">
+        Upload a Thumb Image file <%= form.file_field :thumb_image, style: 'display:none;' %>
+      </label>
+    </div>
   </div>
+
   <div class="col-md-6">
     <div class="mb-3">
       <%= form.label :body, style: "display: block" %>
@@ -18,11 +31,9 @@
     </div>
   </div>
 </div>
-  
-
-  
 
   <hr>
+
   <div class="col-md-12">
     <h2>Technologies Used:</h2>
     <div>
