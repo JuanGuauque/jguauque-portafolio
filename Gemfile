@@ -68,6 +68,7 @@ group :development do
   gem 'petergate', '~> 3.0'
   gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
   gem 'kaminari', '~> 1.2', '>= 1.2.2'
+  gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
