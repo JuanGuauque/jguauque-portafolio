@@ -38,11 +38,11 @@
     <h2>Technologies Used:</h2>
     <div>
       <%= form.fields_for :tecgnologies do |tecgnology_form| %>
-        <div class="mb-3">
-          <%= tecgnology_form.label :name %>
-          <%= tecgnology_form.text_field :name, class: 'form-control' %>
-        </div>
+        <%= render 'tecgnology_fields', f: tecgnology_form %>
       <% end %>
+      <div>
+        <%= link_to_add_association 'Add Technology', form, :tecgnologies %>
+      </div>
     </div>
 
     <div class="mb-3 d-grid">

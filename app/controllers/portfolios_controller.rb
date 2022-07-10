@@ -71,7 +71,7 @@ class PortfoliosController < ApplicationController
                                       :body, 
                                       :main_image,
                                       :thumb_image,
-                                      tecgnologies_attributes: [:name]
+                                      tecgnologies_attributes: [:id, :name, :_destroy]
                                       )
   end
 

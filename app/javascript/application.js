@@ -5,6 +5,7 @@ import "jquery"
 import "jquery_ujs"
 import "jquery-ui"
 import "popper"
+import "@nathanvda/cocoon"
 
 
 import "custom/html.sortable"
