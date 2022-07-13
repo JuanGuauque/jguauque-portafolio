@@ -7,6 +7,6 @@ module SocialTool
 		  config.consumer_key = ENV.fetch("TWITTER_CONSUMER_KEY")
 		  config.consumer_secret = ENV.fetch("TWITTER_CONSUMER_SECRET")
 	  end
-	  client.search("#rails")
+	  client.search("#technology")
 	end
 end
