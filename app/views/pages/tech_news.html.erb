@@ -1,0 +1,16 @@
+<main class="px-3">
+  <h1>Tech News</h1>
+  <div class="row">
+  	<% @tweets.each do |tweet| %>
+  		<div class="col-md-6">
+  			<div class="tech-news">
+  				<div class="card">
+  					<%= tweet.text %>
+  				</div>
+  			</div>
+  		</div>
+  	<% end %>
+  </div>
+</main>
+
+
